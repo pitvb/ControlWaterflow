@@ -12,9 +12,9 @@ Used devices :
 - Printed device to ensure that the water flow through the sensor does not exceed the limit
 
 Further challenges :
-The distance between the flow sensor and the raspberry was quite long and there are a couple of devices in between which did cause electrical spikes to the cable.
+- The distance between the flow sensor and the raspberry was quite long and there are a couple of devices in between which did cause electrical spikes to the cable.
 For the GPIO port of the raspberry allows only 3.3 volt on the line and the raspberry did show some "waterflows" where there where none. As I had only limited time
-to create a stable system, I decided to connect the waterflow senor to an Arduino, close to the sensor and with a relay, connected to the Arduino make sure that the line is stable on the rquired level.
-Electrical scema will follow.
-I will further try to find out if my assumption (spikes on the line) is correct. I have time now as the system is running very stable since weeks now.
+to create a stable system, I decided to connect the waterflow senor to an Arduino, close to the sensor and with a relay, connected to the Arduino make sure that the line to the Raspberry is stable on the required level.
+- Electrical scema will follow.
+- I will further try to find out if my assumption (spikes on the line) is correct. I have time now as the system is running very stable since weeks now.
 
